@@ -17,6 +17,7 @@
     src: url(fonts/PPNeueMontreal-Thin.otf);
 }
 
+
 .appointments-container {
     display: flex;
     flex-direction: column;
@@ -25,7 +26,7 @@
     margin: 47px auto 47px 51px;
     padding: 21px 22px 0 22px;
     min-width: 60em;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px rgba(0.1, 0.1, 0.1, 0.1);
 }
 
 .appointments-container-name {
@@ -48,7 +49,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 15px;
+    /* margin-bottom: 10px; */
+    margin-top: 15px;  
+    padding-bottom: 18px;
+    border-bottom: solid #D8E0E2;
 }
 
 .appointment-date {
@@ -92,7 +96,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 45%;
+    padding-left: 9%;
 
 .defunct-button, .working-button {
     background-color: #D4E8FF;
@@ -100,7 +104,10 @@
     border-radius: 9px;
     width: 180px;
     height: 45px;
-    color: white;
+    color: black;
+}
+.schedule-button{
+    background-color: #9BDFEC;
 }
 }
 
